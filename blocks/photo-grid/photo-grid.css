@@ -1,0 +1,9 @@
+@import url('../photo-grid/__list/photo-grid__list.css');
+@import url('../photo-grid/__item/photo-grid__item.css');
+@import url('../photo-grid/__pic/photo-grid__pic.css');
+
+
+.photo-grid {
+ display: grid;
+
+}
