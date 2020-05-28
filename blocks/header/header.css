@@ -1,0 +1,18 @@
+@import url('./__lang-links/header__lang-links.css');
+@import url('./__lang-link/header__lang-link.css');
+@import url('./__lang-link/_style_underline/header__lang-link_style_underline.css');
+@import url('./__lang-links-item/header__lang-links-item.css');
+
+.header {
+  max-width: 100%;
+  min-height: 52px;
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 48px 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    margin: 28px 24px 48px;
+  }
+}
