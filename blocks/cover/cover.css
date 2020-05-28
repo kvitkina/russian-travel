@@ -15,23 +15,20 @@
 @media screen and (max-width: 1024px) {
   .cover {
     width: 100vw;
-    margin: 0 0 92px 0;
-    max-height: 640px;
+    height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    width: 100vw;
-    margin: 0 0 88px 0;
-    max-height: 480px;
+    margin-bottom: 88px;
+    height: 480px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover {
-    max-width: 320px;
-    width: 100%;
-    min-height: 200px;
+    height: 200px;
+    margin-bottom: 64px;
   }
 }

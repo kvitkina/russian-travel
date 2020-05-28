@@ -8,10 +8,12 @@
  color: white;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover__title {
     font-size: 32px;
     line-height: 1.09;
+    margin-bottom: 16px;
+    max-width: 250px;
   }
 }
 

@@ -20,7 +20,14 @@
 @media screen and (max-width: 768px) {
   .intro {
     margin-bottom: 88px;
-    max-width: 720px;
-    width: 100%;
+    max-width: 100vw;
+    box-sizing: border-box;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .intro {
+    margin-bottom: 64px;
+  }
+}
+

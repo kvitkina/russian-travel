@@ -12,5 +12,6 @@
   .lead {
   max-width: 768px;
   margin: 0 auto 88px;
+  padding: 0;
 }
 }

@@ -20,3 +20,10 @@
    grid-gap: 16px;
 }
 }
+
+@media screen and (max-width: 425px) {
+  .photo-grid__list {
+   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+   grid-gap: 12px;
+}
+}
