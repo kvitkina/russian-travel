@@ -13,3 +13,5 @@
 * flexbox
 * названия классов по БЭМ
 * структура файлов Nested по БЭМ
+
+Прокт выложен на GitHab Pages. Вот ссылка https://kvitkina.github.io/russian-travel/index.html
