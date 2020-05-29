@@ -1,5 +1,4 @@
 .footer__links-item {
-  display: inline-block;
   margin-right: 18px;
 }
 
@@ -7,7 +6,7 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
   .footer__links-item {
    margin-bottom: 32px;
   }

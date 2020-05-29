@@ -2,28 +2,17 @@
   max-width: 984px;
   width: 100%;
   margin: 0 auto 92px;
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
-  .places {
-    max-width: 928px;
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 768px) {
-  .places {
-    max-width: 720px;
-    width: 100%;
-    margin-bottom: 88px;
-  }
-}
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 540px) {
   .places {
     max-width: 320px;
     width: 100%;
-    margin-bottom: 64px;
+    margin: 0 auto 64px;
     padding: 0;
+    box-sizing: content-box;
   }
 }

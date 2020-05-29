@@ -7,9 +7,10 @@
   width: 100%;
   margin: 0 auto 92px;
   height: 740px;
-  background-image: url('../../images/cover-trains.jpg');
+  background-image: url('../../images/cover-image.jpg');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1024px) {

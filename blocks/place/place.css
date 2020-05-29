@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 540px) {
   .place {
     display: block;
     max-width: 320px;
