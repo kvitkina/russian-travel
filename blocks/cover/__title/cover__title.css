@@ -6,6 +6,7 @@
  max-width: 560px;
  text-align: center;
  color: white;
+ position: relative;
 }
 
 @media screen and (max-width: 425px) {
