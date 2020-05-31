@@ -35,10 +35,14 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 550px) {
   .place {
-    display: block;
-    max-width: 320px;
+    grid-template-areas:
+    "title"
+    "image"
+    "text";
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
     margin-bottom: 48px;
   }
 }

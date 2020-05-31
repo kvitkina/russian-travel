@@ -2,6 +2,11 @@
   padding: 0 48px;
 }
 
+@media screen and (max-width: 1024px) {
+  .page__section {
+  padding: 0 48px;
+}
+}
 @media screen and (max-width: 768px) {
   .page__section {
   padding: 0 24px;
