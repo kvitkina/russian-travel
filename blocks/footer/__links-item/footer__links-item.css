@@ -6,7 +6,7 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 690px) {
   .footer__links-item {
    margin-bottom: 32px;
   }
